@@ -26,7 +26,7 @@ testcase_list = [
   {'input': ['06:00'],          'output':'Good morning!',   'tc_name': 'tc11'},
   {'input': ['0600'],           'output':'Good morning!',   'tc_name': 'tc12'},
   {'input': ['21:00'],          'output':'Good evening!',   'tc_name': 'tc13'},
-  {'input': ['2100'],           'output':'Good evening!',   'tc_name': 'tc14'},
+  {'input': ['2100'],           'output':'Good evening!',   'tc_name': 'tc14'}, 
 ]
 #endregion testkey_list
 
@@ -44,7 +44,7 @@ for tc in testcase_list:  # tc aka testcase
 #endregion chambai
 
 #region in ketqua
-print('---ketqua chitiet')
+print('---ketqua chitiet---')
 for kq in ketqua_list:
   print(f'''
 {kq['tc_name']} {kq['tc_score']}
@@ -52,7 +52,7 @@ o_TESTCASE = {kq['o_TESTCASE']}
 o_BAILAM   = {kq['o_BAILAM']}
   '''.strip()+'\n')
 
-print('\n---ketqua')
+print('\n---ketqua---')
 for kq in ketqua_list:
   print(f'''{kq['tc_name']} {kq['tc_score']}''')
 #endregion in ketqua
