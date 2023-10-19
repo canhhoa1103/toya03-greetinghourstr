@@ -52,19 +52,6 @@ greeting('2100')             | Good evening!          | 14
 #region bailam
 
 def greeting(hour_str):
-    pass
-
-
-if __name__=='__main__':
-  print( greeting('0900pm') )
-
-  print( greeting(hour_str='11pm') )
-
-  print( greeting(hour_str='6am')  )
-  print( greeting(hour_str='6AM')  )
-  print( greeting(hour_str='1pm')  )
-  print( greeting(hour_str='6pm')  )
-
-  print( greeting('6am') )
+  pass
 
 #endregion bailam
